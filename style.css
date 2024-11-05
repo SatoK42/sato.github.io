@@ -1,0 +1,47 @@
+p{
+    color: rgb(46, 19, 19); font-size: 1.3em;
+}
+.cry{
+    font-size: 1.2em;
+}
+h1, .try{
+    font-family: "Itim", sans-serif;
+    color: bisque;
+    font-size: 1.5em;
+    background-color: cyan;
+    border-radius: 0.8em;
+    padding: 4em;
+    text-align: center;
+    opacity: 0.6;
+}
+p{
+    font-family: 'Itim', serif; 
+    color: burlywood;
+    text-align: center;
+    background-color: #187498;
+    border-radius: 0.7em;
+    padding: 2em;
+    opacity: 0.8;
+}
+body{
+    background-image: url("image1.jpg"); background-size:cover; background-repeat:no-repeat; background-position:center;
+    border-left: 4px #187498 solid;
+}
+a:active{background-color: beige;}
+a:visited{color: darkkhaki;}
+h2{
+    font-size: 2.2em;
+    font-family: "Itim", serif;
+    color: crimson;
+    text-align: center;
+}
+.lie{
+    font-family: "Itim", sans-serif;
+    color: bisque;
+    font-size: 1.4em;
+    background-color: cadetblue;
+    border-radius: 0.8em;
+    padding: 4em;
+    text-align: center;
+    opacity: 0.8em;
+}
