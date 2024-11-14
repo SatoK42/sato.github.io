@@ -1,47 +1,96 @@
+header{
+   background-image: url(Logo.png);
+}
+body {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 p{
     color: rgb(46, 19, 19); font-size: 1.3em;
 }
-.cry{
-    font-size: 1.2em;
+nav {float: left; width: 100%; margin: 0auto; position: sticky;background-color: white;padding: 0.2em;}
+.pop {
+  margin-left:; float: left; display: inline; text-align: center;
 }
-h1, .try{
-    font-family: "Itim", sans-serif;
-    color: bisque;
-    font-size: 1.5em;
-    background-color: black;
-    border-radius: 0.8em;
-    padding: 4em;
+.second{
+    margin: 1.5em; list-style-type: none;
+}
+.second nav::after{
+    display: table;
+    clear: both;
+}
+nav li{
+    float: left; width: 25%;text-align: center;
+}
+nav a{
+    display: block; text-decoration: overline; padding: 0.2em 0em;
+}
+h1{
+    color: rgb(71, 158, 196);
+    font-size: 3em;
+    padding: 1.2em;
     text-align: center;
-    opacity: 0.6;
+    font-family: "Chakra Petch";
 }
 p{
-    font-family: 'Itim', serif; 
-    color: black;
     text-align: center;
-    background-color: #187498;
-    border-radius: 0.7em;
-    padding: 2em;
-    opacity: 0.8;
+    padding: 0.3em;
+    margin: 1.5em;
 }
-body{
-    background-image: url("image1.jpg"); background-size:cover; background-repeat:no-repeat; background-position:center;
-    border-left: 4px #187498 solid;
+main{
+    background: linear-gradient(rgb(193, 228, 228), rgb(147, 30, 147));
+    background-attachment: scroll;
+}
+h2{
+    font-size: 2.2em;
+    color: rgb(89, 5, 131);
+    text-align: center;
+    border-radius: 2em;
+    padding: 0.3em;
+    background-color: whitesmoke;
+    margin: 2em;
 }
 a:active{background-color: beige;}
 a:visited{color: darkkhaki;}
-h2{
+.tird{
     font-size: 2.2em;
-    font-family: "Itim", serif;
-    color: crimson;
+    color: rgb(89, 5, 131);
     text-align: center;
+    border-radius: 2em;
+    padding: 1.2em;
+    background-color: whitesmoke;
 }
-.lie{
-    font-family: "Itim", sans-serif;
-    color: bisque;
-    font-size: 1.4em;
-    background-color: cadetblue;
-    border-radius: 0.8em;
-    padding: 4em;
-    text-align: center;
-    opacity: 0.8em;
+.five{
+    width: 60em;
+    height: 2em;
+    margin-top: 2em auto;
+    padding-top: 70%;
+    box-shadow: 2px 15px 10px 5px #777;
+    background-size: contain;
+    animation: fondu 15s ease-in-out infinite both;
+    background-repeat: no-repeat;
+   
+}
+.for{
+    max-width: 582px;
+    margin: 2em auto;
+ justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+@keyframes fondu {
+   0%{background-image: url("img1.png");}
+   25%{background-image: url("img2.png");}
+   50%{background-image: url("img3.png");}
+   75%{background-image: url("img4.png");}
+   100%{background-image: url("img5.png");}
+}
+.six{
+    margin: 1.5em; list-style-type: none;
+}
+.six footer{
+    display: table;
+    clear: both;
 }
