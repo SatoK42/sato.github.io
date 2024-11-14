@@ -11,10 +11,10 @@ p{
 }
 nav {float: left; width: 100%; margin: 0auto; position: sticky;background-color: white;padding: 0.2em;}
 .pop {
-  margin-left:; float: left; display: inline; text-align: center;
+   float: left; display: inline; text-align: center;
 }
 .second{
-    margin: 1.5em; list-style-type: none;
+  list-style-type: none;
 }
 .second nav::after{
     display: table;
@@ -49,7 +49,6 @@ h2{
     border-radius: 2em;
     padding: 0.3em;
     background-color: whitesmoke;
-    margin: 2em;
 }
 a:active{background-color: beige;}
 a:visited{color: darkkhaki;}
